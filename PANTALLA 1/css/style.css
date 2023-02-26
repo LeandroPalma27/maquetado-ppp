@@ -1,0 +1,89 @@
+ /* body{
+    height:100vh;
+}  */
+.section-img{
+    max-width: 100%;
+    height: calc(100vh - 200px);
+    background-image:linear-gradient(rgba(0, 0, 05, 0.35),rgba(41, 48, 65, 0.75)), url('../img/unjfsc.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+.img-logo{
+    height: 150px;
+}
+.contenedor{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-texto{
+    text-align: center;
+    color: aliceblue;  
+    
+}
+.contenedor-texto p{
+    font-size: 50px;
+}
+
+#Buscador {
+    background: url('../img/search.png') no-repeat 15px 15px ;
+    background-size: 40px;
+    background-color: aliceblue;
+    color: black;
+    width: 1000px;
+    height: 70px;
+    border: transparent;
+    border-bottom: solid 3px #ccc;
+    border-radius: 5px;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+}
+
+input[type="search"]{
+ font-size: 30px;
+ text-indent: 40px;
+}
+
+.contenedor-footer{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 200px;
+}
+
+.contactanos{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor-footer .titulo{
+    text-align: center;
+    color: #2D79C6;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contactanos p{
+    flex-basis: 33.3%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+i{
+    padding: 0px 10px;
+}
+
+.copyright{
+    background-color: #2D79C6 ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color:aliceblue;
+}
