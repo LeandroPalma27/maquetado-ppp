@@ -69,6 +69,11 @@
     height: 170px;
  }
 
+ .card-title {
+    color: rgb(60, 60, 160);
+    font-size: 15px;
+ }
+
  .contenedor-input p {
      font-size: 50px;
  }
